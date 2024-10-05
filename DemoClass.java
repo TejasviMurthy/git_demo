@@ -3,7 +3,7 @@ public class DemoClass {
 	public static void main(String arr[]) throws Exception {
 		String url = "jdbc:mysql://localhost:3306/school";
 		String userName = "root";
-		String password = "Teja@2004";
+		String password = "";
 //		int id = 11;
 //		String name = "Rohith";
 //		int Class = 13;
