@@ -3,7 +3,7 @@ public class DemoCLass1 {
 	public static void main(String arr[]) throws Exception{
 		String url = "jdbc:mysql://localhost:3306/school";
 		String usrName = "root";
-		String paws = "Teja@2004";
+		String paws = "";
 		String querry = "INSERT INTO STUDENT VALUES (?, ?, ?)";
 		Connection con = DriverManager.getConnection(url, usrName, paws);
 		PreparedStatement st = con.prepareStatement(querry);
