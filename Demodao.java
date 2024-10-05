@@ -12,6 +12,8 @@ public class Demodao {
 		
 		int count = std.insert(s2);
 		System.out.println(count+" rows affected");
+		
+		
 	}
 }
 
@@ -19,7 +21,7 @@ class studentDAO{
 	Connection con = null;
 	Statement st = null;
 	public void conect() throws Exception{
-		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/school", "root", "Teja@2004");
+		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/school", "root", "");
 		st = con.createStatement();
 	}
 	public student getName(int id) throws Exception {
